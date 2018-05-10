@@ -17,6 +17,14 @@ const Styles = {
 	spacePlease: {
 		padding: '60px 0',
 	},
+	littleSpacePlease: {
+		padding: '20px 0',
+	},
+	largeText: {
+		fontSize: '4rem',
+		lineHeight: '4.4rem',
+		textShadow: '1px 1px' + ' 6px #111',
+	},
 	standardText: {
 		fontSize: '3rem',
 		lineHeight: '3.4rem',

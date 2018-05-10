@@ -1,7 +1,8 @@
 // Import React
 import React from "react";
 import { AboutMe, Formidable } from './aboutme';
-import { Intro, Why, WhatIsA11y, WhatIsDisability } from './aboutA11y';
+import { A11yIntro, WhatIsA11y, WhatIsDisability, TypesOfDisability, Why, WhyBusiness1, WhyBusiness2, WhyBusiness3 } from './aboutA11y';
+import { GettingStartedIntro } from './gettingStarted'
 
 
 // Import Spectacle Core tags
@@ -112,12 +113,17 @@ export default class Presentation extends React.Component {
         <Formidable />
 
         {/* 5 W's of Accessibility */}
-        <Intro /> 
+        <A11yIntro /> 
         <WhatIsA11y /> 
         <WhatIsDisability /> 
+        <TypesOfDisability />
         <Why />
+        <WhyBusiness1 />
+        <WhyBusiness2 />
+        <WhyBusiness3 />
 
         {/* How do we get started? */}
+        <GettingStartedIntro />
 
         {/* That seems like a lot. How do we break it down? */}
 

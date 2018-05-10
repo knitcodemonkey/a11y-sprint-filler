@@ -39,10 +39,22 @@ export default class What extends React.Component {
     return (
       <Slide bgImage={images.wheelchair} bgDarken={0.7}>
         <Notes>
-          <p>
-            So, what is disability?
-          </p>
-        </Notes>
+        How many of you have had one of these experiences?
+        <ul>
+          <li>Watched a film in a language you didn't know?</li>
+          <li>Broken a leg, or an arm?</li>
+          <li>Tried to use the web while holding a sleeping baby?</li>
+          <li>Watched a video, in a noisy resturaunt?</li>
+          <li>Asked your phone for directions?</li>
+          <li>Mouse batteries died, and too lazy to use laptop mouse?</li>
+          <li>How many of you have computer games that verbally provide instructions to your illiterate child?</li>
+          <li>What about repetetive stress injuries like carpel tunnel or tennis elbow?</li>
+        </ul>
+
+        How many of you, or your loved ones, interacted with your phone, watched tv,
+        or otherwise interacted with technology during those
+        experiences?
+      </Notes>
         <Heading
           size={2}
           textColor="dktertiary"

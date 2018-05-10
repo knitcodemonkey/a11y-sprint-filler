@@ -32,14 +32,16 @@ preloader(images);
 require("normalize.css");
 import styles from '../styles';
 
-export default class A11yIntro extends React.Component {
+export default class Intro extends React.Component {
   render() {
     return (
       <Slide
       bgColor="#000000"
       style={{ width: '100%', position: 'relative' }}
     >
-      
+      <Notes>
+        Okay. you're convinced. But how do you get started?
+      </Notes>
       <Heading
         textColor="quartenary"
         style={{
@@ -48,24 +50,8 @@ export default class A11yIntro extends React.Component {
           position: 'relative',
         }}
       >
-        Accessibility
+        How do you get started?
       </Heading>
-      <Image
-        src={images.accessibilityGif}
-        style={{
-          width: '100%',
-          marginBottom: -90,
-          zIndex: 0,
-          position: 'relative',
-        }}
-      />
-      <Link
-        textColor="dktertiary"
-        style={[{ zIndex: 10, position: 'relative' }, styles.smallText]}
-        href="https://www.microsoft.com/en-us/design/inclusive"
-      >
-        Image Credit: Inclusive Design at Microsoft
-      </Link>
     </Slide>
     );
   }

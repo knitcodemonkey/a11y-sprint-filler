@@ -63,7 +63,7 @@ export default class What extends React.Component {
 
         <hr textfont="secondary" style={{width: '100%'}}/>
 
-        <Text textColor="primary" style={[styles.largeText, styles.littleSpacePlease]}>
+        <Text textColor="primary" style={[styles.standardText, styles.littleSpacePlease]}>
           "When a person is denied access due to a technology barrier, the impairment to their ability did not occur because of their body’s limitations, rather the defect occurred in the technology."
         </Text>
         <Link

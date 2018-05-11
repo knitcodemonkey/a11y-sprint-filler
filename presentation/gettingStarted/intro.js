@@ -42,14 +42,7 @@ export default class Intro extends React.Component {
       <Notes>
         Okay. you're convinced. But how do you get started?
       </Notes>
-      <Heading
-        textColor="quartenary"
-        style={{
-          marginBottom: -100,
-          zIndex: 10,
-          position: 'relative',
-        }}
-      >
+      <Heading size={1} textColor="primary">
         How do you get started?
       </Heading>
     </Slide>

@@ -44,10 +44,10 @@ export default class WhyBusiness extends React.Component {
           </p>
         </Notes>
         
-        <Text textColor="primary" style={[styles.standardText, styles.littleSpacePlease]}>
+        <Text textColor="primary" style={[styles.largeText, styles.littleSpacePlease]}>
           At any given time, 20% of the population qualifies as permanently, temporarily, or circumstantially disabled
         </Text>
-        <Text textColor="primary" style={[styles.standardText, styles.littleSpacePlease]}>
+        <Text textColor="dktertiary" style={[styles.standardText, styles.littleSpacePlease]}>
           20% more engagement ≈ 20% more money
         </Text>
       </Slide>

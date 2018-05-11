@@ -2,7 +2,7 @@
 import React from "react";
 import { AboutMe, Formidable } from './aboutme';
 import { A11yIntro, WhatIsA11y, WhatIsDisability, TypesOfDisability, Why, WhyBusiness1, WhyBusiness2, WhyBusiness3 } from './aboutA11y';
-import { GettingStartedIntro, Axe, DesignTools } from './gettingStarted';
+import { GettingStartedIntro, Axe, DesignTools, DevTools } from './gettingStarted';
 import { BreakdownIntro, Checklists } from './breakdown';
 import { TestYourSiteIntro, Ksl, Utah, DesNews } from './testYourSite';
 
@@ -128,6 +128,7 @@ export default class Presentation extends React.Component {
         <GettingStartedIntro />
         <Axe />
         <DesignTools />
+        <DevTools />
 
         {/* Test Your Site */}
         <TestYourSiteIntro />

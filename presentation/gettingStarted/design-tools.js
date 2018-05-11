@@ -48,7 +48,7 @@ export default class OtherTools extends React.Component {
           size={2}
           textColor="primary"
           style={{ textShadow: '1px 1px 6px #222' }}
-        >Design-specific Tools</Heading>
+        >Design Tools</Heading>
         
         <hr textfont="secondary" style={{width: '100%'}}/>
 

@@ -47,21 +47,23 @@ export default class Axe extends React.Component {
           size={2}
           textColor="primary"
           style={{ textShadow: '1px 1px 6px #222' }}
-        ><Link
-          textColor="dktertiary"
-          style={[{textAlign: 'center', width: '100%', display: 'block'}]}
-          href="https://axe-core.org/"
-          target="_blank"
-        >aXe by Deque</Link>
-        </Heading>
+        >A11y Quick Start</Heading>
 
         <hr textfont="secondary" style={{width: '100%'}}/>
-        <Text textColor="primary" style={[styles.largeText, styles.littleSpacePlease]}>
-          aXe Browser Extensions
-        </Text>
-        <Text textColor="primary" style={[styles.largeText, styles.littleSpacePlease]}>
-          Automated Functional Testing
-        </Text>
+
+        <Link
+          textColor="dktertiary"
+          style={[styles.largeText, styles.littleSpacePlease, {textAlign: 'center', width: '100%', display: 'block'}]}
+          href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd"
+          target="_blank"
+        >aXe Chrome Extension</Link>
+
+        <Link
+          textColor="dktertiary"
+          style={[styles.largeText, styles.littleSpacePlease, {textAlign: 'center', width: '100%', display: 'block'}]}
+          href="https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/"
+          target="_blank"
+        >aXe Firefox Extension</Link>
       </Slide>
     );
   }

@@ -42,7 +42,7 @@ export default class Intro extends React.Component {
       <Notes>
         Okay. you're convinced. But how do you get started?
       </Notes>
-      <Text textColor="dktertiary" style={[styles.standardText, styles.littleSpacePlease]}>
+      <Text textColor="dktertiary" style={[styles.largeText, styles.littleSpacePlease]}>
           Now that we have our tools,
         </Text>
       <Heading size={2} textColor="primary">

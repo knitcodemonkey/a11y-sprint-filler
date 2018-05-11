@@ -48,21 +48,29 @@ export default class Checklists extends React.Component {
           size={2}
           textColor="primary"
           style={{ textShadow: '1px 1px 6px #222' }}
-        >Checklists!</Heading>
+        >Oh look! Checklists!</Heading>
         
         <hr textfont="secondary" style={{width: '100%'}}/>
 
+        <Text textColor="primary" style={[styles.largeText, styles.littleSpacePlease]}>
+          A11y Project:
+        </Text>
         <Link
           textColor="dktertiary"
-          style={[styles.largeText, styles.littleSpacePlease, {textAlign: 'center', width: '100%', display: 'block'}]}
+          style={[styles.standardText, {textAlign: 'center', width: '100%', display: 'block'}]}
           href="https://a11yproject.com/checklist.html"
-        >A11y Project: Web Accessibility Checklist</Link>
+        >Web Accessibility Checklist</Link>
 
+        <Text style={[styles.largeText, styles.littleSpacePlease] }/>
+
+        <Text textColor="primary" style={[styles.largeText, styles.littleSpacePlease]}>
+          Elsevier:
+        </Text>
         <Link
           textColor="dktertiary"
-          style={[styles.largeText, styles.littleSpacePlease, {textAlign: 'center', width: '100%', display: 'block'}]}
+          style={[styles.standardText, {textAlign: 'center', width: '100%', display: 'block'}]}
           href="http://romeo.elsevier.com/accessibility_checklist/"
-        >Elsevier: Web Content Accessibility Guidelines 2.0</Link>
+        >Web Content Accessibility Guidelines 2.0</Link>
       </Slide>
     );
   }

@@ -2,7 +2,9 @@
 import React from "react";
 import { AboutMe, Formidable } from './aboutme';
 import { A11yIntro, WhatIsA11y, WhatIsDisability, TypesOfDisability, Why, WhyBusiness1, WhyBusiness2, WhyBusiness3 } from './aboutA11y';
-import { GettingStartedIntro, Axe } from './gettingStarted'
+import { GettingStartedIntro, Axe, DesignTools } from './gettingStarted';
+import { BreakdownIntro, Checklists } from './breakdown';
+import { TestYourSiteIntro, Ksl, Utah, DesNews } from './testYourSite';
 
 
 // Import Spectacle Core tags
@@ -125,8 +127,17 @@ export default class Presentation extends React.Component {
         {/* How do we get started? */}
         <GettingStartedIntro />
         <Axe />
+        <DesignTools />
+
+        {/* Test Your Site */}
+        <TestYourSiteIntro />
+        <Ksl />
+        <Utah />
+        <DesNews />
 
         {/* That seems like a lot. How do we break it down? */}
+        <BreakdownIntro />
+        <Checklists />
 
         {/* Conclusion */}
       </Deck>

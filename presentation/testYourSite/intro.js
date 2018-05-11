@@ -43,10 +43,10 @@ export default class Intro extends React.Component {
         Okay. you're convinced. But how do you get started?
       </Notes>
       <Text textColor="dktertiary" style={[styles.standardText, styles.littleSpacePlease]}>
-          Okay, fine. I'm convinced.
+          Now that we have our tools,
         </Text>
       <Heading size={2} textColor="primary">
-        How do I get started?
+        Lets test your sites!
       </Heading>
     </Slide>
     );

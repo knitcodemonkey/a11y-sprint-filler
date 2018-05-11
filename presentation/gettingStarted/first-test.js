@@ -34,34 +34,36 @@ preloader(images);
 require("normalize.css");
 import styles from '../styles';
 
-export default class Axe extends React.Component {
+export default class OtherTools extends React.Component {
   render() {
     return (
       <Slide bgImage={images.wheelchair} bgDarken={0.7}>
         <Notes>
           <p>
-            aXe by Deque
+            Design-specific Tools
           </p>
         </Notes>
+
         <Heading
           size={2}
           textColor="primary"
           style={{ textShadow: '1px 1px 6px #222' }}
-        ><Link
-          textColor="dktertiary"
-          style={[{textAlign: 'center', width: '100%', display: 'block'}]}
-          href="https://axe-core.org/"
-          target="_blank"
-        >aXe by Deque</Link>
-        </Heading>
-
+        >Design-specific Tools</Heading>
+        
         <hr textfont="secondary" style={{width: '100%'}}/>
-        <Text textColor="primary" style={[styles.largeText, styles.littleSpacePlease]}>
-          aXe Browser Extensions
-        </Text>
-        <Text textColor="primary" style={[styles.largeText, styles.littleSpacePlease]}>
-          Automated Functional Testing
-        </Text>
+
+        <Link
+          textColor="dktertiary"
+          style={[styles.largeText, styles.littleSpacePlease, {textAlign: 'center', width: '100%', display: 'block'}]}
+          href="https://webaim.org/resources/contrastchecker/"
+        >WebAIM Color Contrast Checker</Link>
+
+        <Link
+          textColor="dktertiary"
+          style={[styles.largeText, styles.littleSpacePlease, {textAlign: 'center', width: '100%', display: 'block'}]}
+          href="https://www.toptal.com/designers/colorfilter"
+        >Toptal Colorblind Web Page Filter</Link>
+
       </Slide>
     );
   }

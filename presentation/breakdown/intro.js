@@ -40,13 +40,17 @@ export default class Intro extends React.Component {
       style={{ width: '100%', position: 'relative' }}
     >
       <Notes>
-        Okay. you're convinced. But how do you get started?
+        Oh wow. There is a lot to fix.
       </Notes>
-      <Text textColor="dktertiary" style={[styles.standardText, styles.littleSpacePlease]}>
-          Okay, fine. I'm convinced.
-        </Text>
-      <Heading size={2} textColor="primary">
-        How do I get started?
+
+      <Heading size={2} textColor="primary" style={styles.littleSpacePlease}>
+        Oh wow
+      </Heading>
+      <Text textColor="dktertiary" style={[styles.largeText, styles.littleSpacePlease]}>
+        That is overwhelming
+      </Text>
+      <Heading size={2} textColor="primary" style={styles.littleSpacePlease}>
+        How do I realistically break it down?
       </Heading>
     </Slide>
     );

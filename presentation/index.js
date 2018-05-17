@@ -3,9 +3,8 @@ import React from "react";
 import { AboutMe, Formidable } from './aboutme';
 import { A11yIntro, WhatIsA11y, WhatIsDisability, TypesOfDisability, Why, WhyBusiness1, WhyBusiness2, WhyBusiness3 } from './aboutA11y';
 import { GettingStartedIntro, Axe, DesignTools, DevTools } from './gettingStarted';
-import { BreakdownIntro, Checklists } from './breakdown';
 import { TestYourSiteIntro, Ksl, Utah, DesNews } from './testYourSite';
-
+import { BreakdownIntro, Checklists, StartNow, ByComponent, ByPage } from './breakdown';
 
 // Import Spectacle Core tags
 import {
@@ -28,7 +27,9 @@ import {
 // Import image preloader util
 import preloader from 'spectacle/lib/utils/preloader';
 const images = {
-  JenDevDesk: require('../assets/aboutme/JensDesk.jpg')
+  JenDevDesk: require('../assets/aboutme/JensDesk.jpg'),
+  JenDeskColor: require('../assets/aboutme/JensDeskColor.jpg'),
+	
 }
 preloader(images);
 
@@ -139,6 +140,9 @@ export default class Presentation extends React.Component {
         {/* That seems like a lot. How do we break it down? */}
         <BreakdownIntro />
         <Checklists />
+				<StartNow />
+				<ByComponent />
+				<ByPage />
 
         {/* Conclusion */}
       </Deck>

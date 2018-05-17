@@ -25,8 +25,7 @@ import createTheme from "spectacle/lib/themes/default";
 // Import image preloader util
 import preloader from 'spectacle/lib/utils/preloader';
 const images = {
-  wheelchair: require('../../assets/backgrounds/access-wheelchair.jpg'),
-  JenniferVan: require('../../assets/JenniferVan.jpg'),
+  brickBg: require('../../assets/backgrounds/brickBg.jpg'),
 }
 preloader(images);
 
@@ -37,10 +36,10 @@ import styles from '../styles';
 export default class Checklists extends React.Component {
   render() {
     return (
-      <Slide bgImage={images.wheelchair} bgDarken={0.7}>
+      <Slide bgImage={images.brickBg} bgDarken={0.7}>
         <Notes>
           <p>
-            Design-specific Tools
+            Checklists to help you determine how to break things up, how to write stories, and how to test. 
           </p>
         </Notes>
 
@@ -48,7 +47,7 @@ export default class Checklists extends React.Component {
           size={2}
           textColor="primary"
           style={{ textShadow: '1px 1px 6px #222' }}
-        >Oh look! Checklists!</Heading>
+        >Helpful Checklists</Heading>
         
         <hr textfont="secondary" style={{width: '100%'}}/>
 

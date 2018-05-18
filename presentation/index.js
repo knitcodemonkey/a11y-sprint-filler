@@ -148,7 +148,9 @@ export default class Presentation extends React.Component {
 				<DesignAffectsCodeMultiselect />
 
         {/* Conclusion */}
-				<Slide>
+				<Slide
+				bgColor="#000000"
+        style={{ width: "100%", position: "relative" }}>
 					<Text textColor="dktertiary" style={[styles.largeText, styles.littleSpacePlease]}>
 						Accessibility isn't for just a select few. It's for everybody. It's for you.
 					</Text>

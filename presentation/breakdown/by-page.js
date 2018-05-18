@@ -23,15 +23,15 @@ import {
 import createTheme from "spectacle/lib/themes/default";
 
 // Import image preloader util
-import preloader from 'spectacle/lib/utils/preloader';
+import preloader from "spectacle/lib/utils/preloader";
+import styles from "../styles";
 const images = {
-  brickBg: require('../../assets/backgrounds/brickBg.jpg'),
-}
+  brickBg: require("../../assets/backgrounds/brickBg.jpg")
+};
 preloader(images);
 
 // Require CSS
 require("normalize.css");
-import styles from '../styles';
 
 export default class Checklists extends React.Component {
   render() {
@@ -46,10 +46,10 @@ export default class Checklists extends React.Component {
         <Heading
           size={4}
           textColor="dktertiary"
-          style={{ textShadow: '1px 1px 6px #222' }}
+          style={{ textShadow: "1px 1px 6px #222" }}
         >Cleanup By Page/Template</Heading>
 
-         <hr textfont="secondary" style={{width: '100%'}}/>
+        <hr textfont="secondary" style={{ width: "100%" }}/>
 
         <Text textColor="primary" style={[styles.standardText, styles.littleSpacePlease]}>
           One-off customizations unique to the page.

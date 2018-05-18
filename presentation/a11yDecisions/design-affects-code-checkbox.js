@@ -55,7 +55,16 @@ export default class Intro extends React.Component {
         <Heading size={2} textColor="primary">
 
         </Heading>
-        <iframe height="450" scrolling="no" title="JvwROv" src="//codepen.io/knitcodemonkey/embed/JvwROv/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameBorder="no" allowTransparency="true" allowFullScreen="true" style="width: 100%;" />
+        <iframe 
+          height="450" 
+          scrolling="no" 
+          title="Checkbox List Triggered by Button" 
+          src="//codepen.io/knitcodemonkey/embed/JvwROv/?height=265&theme-id=0&default-tab=html,result&embed-version=2" 
+          frameBorder="no" 
+          allowTransparency="true" 
+          allowFullScreen="true" 
+          style={{width: "100%"}} 
+        />
 
         <Text textColor="primary" style={[styles.extraSmallText, styles.littleSpacePlease]}>
         See the Pen <a style={{ color: themeColors.dktertiary }} href="https://codepen.io/knitcodemonkey/pen/JvwROv/">Checkbox List Triggered by Button</a> by Jennifer Luker (<a style={{ color: themeColors.dktertiary }} href="https://codepen.io/knitcodemonkey">@knitcodemonkey</a>) on <a style={{ color: themeColors.dktertiary }} href="https://codepen.io">CodePen</a>.</Text>

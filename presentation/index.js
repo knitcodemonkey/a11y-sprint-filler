@@ -5,7 +5,7 @@ import { A11yIntro, WhatIsA11y, WhatIsDisability, TypesOfDisability, Why, WhyBus
 import { GettingStartedIntro, Axe, DesignTools, DevTools } from "./gettingStarted";
 import { TestYourSiteIntro } from "./testYourSite";
 import { BreakdownIntro, Checklists, StartNow, ByComponent, ByPage } from "./breakdown";
-
+import { RealWorldApplication, ButtonVsDiv, DesignAffectsCode } from "./a11yDecisions";
 // Import Spectacle Core tags
 import {
   Appear,
@@ -140,6 +140,11 @@ export default class Presentation extends React.Component {
         <StartNow />
         <ByComponent />
         <ByPage />
+
+        {/* How design affects code affects accessibility */}
+        <RealWorldApplication />
+        <ButtonVsDiv />
+        <DesignAffectsCode />
 
         {/* Conclusion */}
       </Deck>

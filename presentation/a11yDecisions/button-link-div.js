@@ -46,7 +46,7 @@ export default class Intro extends React.Component {
               lang="html"
               source={require("raw-loader!../../assets/code/accessibility.example")}
               margin="0px auto"
-              textSize="0.75em"
+              textSize="0.79em"
             />
           </Fill>
         </Layout>

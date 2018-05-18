@@ -67,7 +67,7 @@ export default class Intro extends React.Component {
         />
 
         <Text textColor="primary" style={[styles.extraSmallText, styles.littleSpacePlease]}>
-        See the Pen <a style={{ color: themeColors.dktertiary }} href="https://codepen.io/knitcodemonkey/pen/JvwROv/">Checkbox List Triggered by Button</a> by Jennifer Luker (<a style={{ color: themeColors.dktertiary }} href="https://codepen.io/knitcodemonkey">@knitcodemonkey</a>) on <a style={{ color: themeColors.dktertiary }} href="https://codepen.io">CodePen</a>.</Text>
+        See the Pen <a style={{ color: themeColors.dktertiary }} href="https://codepen.io/knitcodemonkey/pen/JvwROv/">Checkbox List Triggered by Button</a> by Jen Luker (<a style={{ color: themeColors.dktertiary }} href="https://codepen.io/knitcodemonkey">@knitcodemonkey</a>) on <a style={{ color: themeColors.dktertiary }} href="https://codepen.io">CodePen</a>.</Text>
       </Slide>
     );
   }
